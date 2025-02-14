@@ -1,2 +1,5 @@
-# Ice-Philicity
-Predicting Ice Philicity of Protein Atoms
+# Predicting Ice Philicity of Protein Atoms
+
+University of Pennsylvania, Biomedical Data Science
+
+_Abstract_ — Ice-philicity, the tendency of protein atoms to bind to ice, is a key factor in biological and technological applications such as cryopreservation, antifreeze materials, and biomaterials design. However, predicting ice-philic behavior based on atomic-level features remains a challenge. In this study, we develop a predictive model to classify ice-philic protein atoms using structural and chemical features. Our dataset consists of over 109,000 protein atoms, preprocessed through feature engineering, data balancing with SMOTE, and one-hot encoding of categorical variables. We train multiple machine learning models, including Logistic Regression, Random Forest, and Gradient Boosting, optimizing hyperparameters with GridSearchCV. Our best-performing model achieves 0.92 recall and 77% accuracy. Hypothesis testing reveals that residue type significantly influences ice-philicity, while atomic polarity and atom type do not. Additionally, ice-philic atoms exhibit clustering behavior. This work provides insights into protein-ice interactions and lays the foundation for designing biomaterials with tailored ice-binding properties. Future directions include embedding structural information to improve predictive accuracy.
